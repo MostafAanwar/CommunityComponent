@@ -1,15 +1,29 @@
-<?php include "includes/config.php"; ?>
-<!DOCTYPE html>
+<?php include 'templates/nav.php'; ?>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Login</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="js/main.css">
-	<script src="js/main.js"></script>
+<link rel='stylesheet' type='text/css' href='css/main.css' />
 </head>
 <body>
-	
+<div class='middle'>
+<div id='post'>
+<form action='' method='post'>
+<textarea id='post-body' name='post-body' placeholder = 'Post something'></textarea>
+<input type='submit' name='submitp' id='submitp' value='Post' />
+</form>
+</div>
+<div id='newsfeed'>
+    
+</div>
+<div class='sidepanel'>
+<img alt='profile picture' src="img/fancypixel.jpg" height='250' width='200' />
+<br />
+
+<hr />
+
+<div class='activity'>
+ <h2>Activity</h2>   
+</div>
+</div>
+</div>
 </body>
 </html>
