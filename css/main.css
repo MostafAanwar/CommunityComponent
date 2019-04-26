@@ -293,4 +293,15 @@ border: 1px solid #EEE;
 .latest-posts .row .edit{margin: 0 auto;margin-bottom: -7px;}
 .latest-posts .row .count{display: inline-block;padding-right: 7px;margin-bottom: -4px;}
 .latest-posts .row .btn-primary{margin-right: 10px;border-radius: 12px;}
+
 /*end latest posts*/
+
+.parent{border:1px solid #FFFFFF;margin-top: -19px;margin-bottom: 5px;background: #FFFFFF;
+    color: #262626;padding: 10px;}
+.form-style{
+    border: 1px solid #FFFFFF;margin-bottom: 12px;background: #FFFFFF;padding-top: 8px;margin-top: -5px}
+.commentvalue{padding: 10px;border-radius: 7px;border:1px solid #262626}
+
+
+
+
