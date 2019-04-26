@@ -1,0 +1,306 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #EEE;
+	box-sizing: border-box;
+}
+
+#post {
+	width: 70%;
+	border-bottom: 1px solid #EEE;
+	float:left;
+}
+.privacy{
+	margin: 0px 6px 15px 15px;
+}
+.desc{margin: 15px 15px 15px 15px;}
+.sidepanel {
+	width: 29%;
+	float: right;
+	height: 100%;
+	background: #EEE;
+	border-left:1px solid #EEE;
+}
+
+.sidepanel img {
+	margin-left: 40px;
+}
+
+#post textarea {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 4px;
+	padding: 20px;
+	resize: none;
+	border: 2px solid rgba(0,0,0,.2);
+	border-radius: 2px;
+}
+
+* {
+ 	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;  
+}
+
+
+.activity {
+ height: 100%; 
+    text-align: center;
+}
+
+#newsfeed {
+ float: left;
+ height: auto;
+ width: 70%;
+display: none;
+}
+
+.post {
+ border-bottom: 1px solid #EEE;
+ width: 100%;
+ height: 105px;
+background: white;
+}
+
+.author {
+
+ 
+}
+
+.post img {
+ float: left;   
+}
+
+.body {
+ height: 85px;
+ width: 100%;
+ float:left;
+}
+.sub{width: 100px;margin: 10px auto}
+#post input[type='submit'] {
+	border:1px solid #4aaee7;
+	background: #3A88B5;
+	color: white;
+	width: 100%;
+	border-radius: 10px;
+	margin: 1px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+hr {
+ background: #EEE;
+border: 1px solid #EEE;
+    height: 1px;
+}
+
+
+
+#nav {
+	width: 100%;
+	background: #4aaee7;
+	color: white;
+	height: 50px;
+	font-size: 14px;
+	border-bottom: 1px solid #4aaee7;
+	box-shadow: 0px 1px 5px rgba(0,0,0,.7);
+}
+
+.middle {
+	width: 990px;
+	height: 120%;
+	background: white;
+	color: #000;
+	border-right: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.7);
+	margin: 0 auto;
+	margin-top: 6px;
+}
+
+.error {
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: 0;
+	background: red;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.success {
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: 0;
+	background: green;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+#register {
+	border:1px solid #4aaee7;
+	background: #3A88B5;
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#password {
+	margin: 10px;
+	padding: 20px;
+	width: 94%;
+	height: 20px;
+	border:0px solid #4aaee7;
+}
+
+#username {
+	margin: 10px;
+	padding: 20px;
+	width: 94%;
+	height: 20px;
+	border:0px solid #4aaee7;
+	margin-top: 20px;
+}
+
+#password2 {
+	margin: 10px;
+	padding: 20px;
+	width: 94%;
+	height: 20px;
+	border:0px solid #4aaee7;
+	margin-top: 20px;
+}
+
+#email {
+	margin: 10px;
+	padding: 20px;
+	width: 94%;
+	height: 20px;
+	border:0px solid #4aaee7;
+	margin-top: 20px;
+}
+
+
+#username:focus {
+	outline: none;
+	border: 1px solid #EEE;
+}
+
+#password:focus {
+	outline: none;
+	border: 1px solid #EEE;
+}
+
+#email:focus {
+	outline:none;
+	border:1px solid #EEE;
+}
+#password2:focus{
+	outline: none;
+	border: 1px solid #EEE;
+}
+#welcome {
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+}
+
+#link {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 10px;
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+#nav a {
+	float: right;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	margin: 2px;
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+#middle {
+	max-width: 300px;
+	width: 100%;
+	background: #4aaee7;
+	color: white;
+	margin: 0% auto;
+	height: auto;
+	margin-top: 200px;
+	border-radius: 8px;
+
+}
+
+#links {
+	margin-right: 130px;
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+#link a {
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+#nav a:hover {
+	background: white;
+	color: #4aaee7;
+	border-bottom: 0px solid #4aaee7;
+}
+#logo {
+	margin-left: 130px;
+	margin-top: 0px;
+}
+
+#logo h1 {
+	padding-top: 6px;
+	font-family: 'wf_SegoeUILight','Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+/*start latest posts*/
+.latest-posts{padding: 55px 0;margin: 17px}
+.latest-posts .container> h1{margin-bottom: 18px;color:#08526D;text-align: center }
+.latest-posts .container> p{width: 70%;margin: auto;margin-bottom: 33px;color: #08526D;line-height: 21px;font-size: 20px;text-align: center}
+.latest-posts .card {
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: box-shadow 0.25s ease-in;
+    -moz-transition: box-shadow 0.25s ease-in;
+    -o-transition: box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+    margin-bottom: 20px;
+}
+.latest-posts .card:hover{
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.15),-8px 8px 8px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.15),-8px 8px 8px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.latest-posts{overflow: hidden !important}
+.latest-posts .card img{max-height: 300px;cursor: pointer;}
+.latest-posts .card h5{color:#08526D }
+.latest-posts .row .edit{margin: 0 auto;margin-bottom: -7px;}
+.latest-posts .row .count{display: inline-block;padding-right: 7px;margin-bottom: -4px;}
+.latest-posts .row .btn-primary{margin-right: 10px;border-radius: 12px;}
+
+/*end latest posts*/
+
+.parent{border:1px solid #FFFFFF;margin-top: -19px;margin-bottom: 5px;background: #FFFFFF;
+    color: #262626;padding: 10px;}
+.form-style{
+    border: 1px solid #FFFFFF;margin-bottom: 12px;background: #FFFFFF;padding-top: 8px;margin-top: -5px}
+.commentvalue{padding: 10px;border-radius: 7px;border:1px solid #262626}
+
+
+
+
