@@ -2,7 +2,8 @@ This is an API used in case anyone wants to use the community Component.
 # Install
 
 ```
-N/a (For now)
+Docker.
+Git bash.
 ```
 
 # Features
