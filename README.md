@@ -24,7 +24,7 @@ You're going to need:
 1. Fork This repository.(or you can clone directly)
 2. Clone the forked repository.
 3. open Docker terminal.
-4. type docker run my_container.
+4. type docker run my_new_container.
 5. leave it to download.
 6. Go to browser and type localhost:8080.
 
